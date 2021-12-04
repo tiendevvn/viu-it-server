@@ -1,0 +1,45 @@
+{
+  "name": "viu-it-server",
+  "version": "1.0.0",
+  "description": "VIU IT Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiendevvn/viu-it-server.git"
+  },
+  "keywords": [
+    "viu-it-server",
+    "nodejs",
+    "expressjs",
+    "typescript",
+    "social-network"
+  ],
+  "author": "Tiendevvn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiendevvn/viu-it-server/issues"
+  },
+  "homepage": "https://github.com/tiendevvn/viu-it-server#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.13",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.2",
+    "@types/cors": "^2.8.12",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.13",
+    "@types/morgan": "^1.9.3",
+    "@types/node": "^16.11.11",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  }
+}
